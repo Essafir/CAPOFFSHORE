@@ -100,3 +100,22 @@
     letter-spacing: 1px;
     color: #79c6fa !important;
 }
+
+/* why us */
+#why_us .border {
+    border-color: #91bbf3 !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#why_us .border:hover {
+    transform: translateY(-50px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05) !important;
+}
+
+#why_us .text-primary {
+    color: #2b70e4 !important;
+}
+
+#why_us .bg-light {
+    background-color: #f0f4ff !important;
+}
